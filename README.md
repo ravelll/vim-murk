@@ -18,6 +18,10 @@ syntax on
 colorscheme murk
 ```
 
+### Screenshot
+
+<img width="933" alt="2016-02-02 8 29 28" src="https://cloud.githubusercontent.com/assets/2294362/12734941/221eec40-c987-11e5-8d9e-c28633e711a4.png">
+
 ### LICENSE
 
 The MIT license.
