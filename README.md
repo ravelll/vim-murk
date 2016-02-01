@@ -2,7 +2,7 @@
 
 Vim-Murk is a vim colorscheme, made by the red-green color weakness (It's me!).So, it is not be too colorful, but set colors to be cognizable about syntax.
 
-※ Now this colorscheme is only available with Vim on terminal environment.
+**※ Now this colorscheme is only available with Vim on terminal environment.**
 
 ### Installation
 
