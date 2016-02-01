@@ -10,94 +10,61 @@ set background=dark
 
 let g:colors_name="murk"
 
-hi Boolean         guifg=#898070
-hi Character       guifg=#E6DB74
-hi Number          guifg=#AE81FF
-hi String          guifg=#363BB4
-hi Conditional     guifg=#F92672               gui=bold
-hi Constant        guifg=#5E515F               gui=bold
-hi Cursor          guifg=#000000 guibg=#F8F8F0
-hi iCursor         guifg=#000000 guibg=#F8F8F0
-hi Debug           guifg=#5C3343               gui=bold
-hi Define          guifg=#66D9EF
-hi Delimiter       guifg=#8F8F8F
-hi DiffAdd                       guibg=#13354A
-hi DiffChange      guifg=#89807D guibg=#4C4745
-hi DiffDelete      guifg=#960050 guibg=#1E0010
-hi DiffText                      guibg=#4C4745 gui=italic,bold
-
-hi Directory       guifg=#A6E22E               gui=bold
-hi Error           guifg=#964B74 guibg=#1E0010
-hi ErrorMsg        guifg=#993632 guibg=#232526 gui=bold
-hi Exception       guifg=#76323E               gui=bold
-hi Float           guifg=#7E717F
-hi FoldColumn      guifg=#465457 guibg=#000000
-hi Folded          guifg=#465457 guibg=#000000
-hi Function        guifg=#A6E22E
-hi Identifier      guifg=#FD971F
-hi Ignore          guifg=#808080 guibg=bg
-hi IncSearch       guifg=#C4BE89 guibg=#000000
-
-hi Keyword         guifg=#09389F               gui=bold
-hi Label           guifg=#E6DB74               gui=none
-hi Macro           guifg=#C4BE89               gui=italic
-hi SpecialKey      guifg=#66D9EF               gui=italic
-
-hi MatchParen      guifg=#000000 guibg=#FD971F gui=bold
-hi ModeMsg         guifg=#E6DB74
-hi MoreMsg         guifg=#E6DB74
-hi Operator        guifg=#F92672
-
-" complete menu
-hi Pmenu           guifg=#66D9EF guibg=#000000
-hi PmenuSel                      guibg=#808080
-hi PmenuSbar                     guibg=#080808
-hi PmenuThumb      guifg=#66D9EF
-
-hi PreCondit       guifg=#A6E22E               gui=bold
-hi PreProc         guifg=#A6E22E
-hi Question        guifg=#66D9EF
-hi Repeat          guifg=#F92672               gui=bold
-hi Search          guifg=#000000 guibg=#FFE792
-" marks
-hi SignColumn      guifg=#A6E22E guibg=#232526
-hi SpecialChar     guifg=#F92672               gui=bold
-hi SpecialComment  guifg=#7E8E91               gui=bold
-hi Special         guifg=#66D9EF guibg=bg      gui=italic
-if has("spell")
-    hi SpellBad    guisp=#FF0000 gui=undercurl
-    hi SpellCap    guisp=#7070F0 gui=undercurl
-    hi SpellLocal  guisp=#70F0F0 gui=undercurl
-    hi SpellRare   guisp=#FFFFFF gui=undercurl
-endif
-hi Statement       guifg=#F92672               gui=bold
-hi StatusLine      guifg=#455354 guibg=fg
-hi StatusLineNC    guifg=#808080 guibg=#080808
-hi StorageClass    guifg=#FD971F               gui=italic
-hi Structure       guifg=#66D9EF
-hi Tag             guifg=#F92672               gui=italic
-hi Title           guifg=#ef5939
-hi Todo            guifg=#FFFFFF guibg=bg      gui=bold
-
-hi Typedef         guifg=#66D9EF
-hi Type            guifg=#66D9EF               gui=none
-hi Underlined      guifg=#808080               gui=underline
-
-hi VertSplit       guifg=#808080 guibg=#080808 gui=bold
-hi VisualNOS                     guibg=#403D3D
-hi Visual                        guibg=#403D3D
-hi WarningMsg      guifg=#FFFFFF guibg=#333333 gui=bold
-hi WildMenu        guifg=#66D9EF guibg=#000000
-
-hi TabLineFill     guifg=#1B1D1E guibg=#1B1D1E
-hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
-
-hi Normal          guifg=#F8F8F2 guibg=#1B1D1E
-hi Comment         guifg=#7E8E91
-hi CursorLine                    guibg=#293739
-hi CursorLineNr    guifg=#FD971F               gui=none
-hi CursorColumn                  guibg=#293739
-hi ColorColumn                   guibg=#232526
-hi LineNr          guifg=#465457 guibg=#232526
-hi NonText         guifg=#465457
-hi SpecialKey      guifg=#465457
+hi Normal                   guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi Cursor                   guifg=Black     ctermfg=16  guibg=LightGray ctermbg=252 gui=NONE      cterm=NONE      term=NONE
+hi CursorLine               guifg=LightGray ctermfg=252 guibg=#202020   ctermbg=234 gui=NONE      cterm=NONE      term=NONE
+hi CursorLineNr             guifg=White     ctermfg=15  guibg=Black     ctermbg=16  gui=bold      cterm=bold      term=bold
+hi FoldColumn               guifg=DarkGray  ctermfg=248 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi Folded                   guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi LineNr                   guifg=DarkGray  ctermfg=248 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi Statement                guifg=White     ctermfg=15  guibg=Black     ctermbg=16  gui=bold      cterm=bold      term=bold
+hi PreProc                  guifg=White     ctermfg=15  guibg=Black     ctermbg=16  gui=bold      cterm=bold      term=bold
+hi String                   guifg=#9798F9   ctermfg=67  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi Character                guifg=#9798F9   ctermfg=67  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi Comment                  guifg=#737373   ctermfg=243 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi Constant                 guifg=#00BB00   ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi Type                     guifg=White     ctermfg=15  guibg=Black     ctermbg=16  gui=bold      cterm=bold      term=bold
+hi Function                 guifg=White     ctermfg=15  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi Conditional              guifg=White     ctermfg=15  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi Identifier               guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi Special                  guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi MatchParen               guifg=Black     ctermfg=16  guibg=LightGray ctermbg=252 gui=NONE      cterm=NONE      term=NONE
+hi rubyConstant             guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi rubySharpBang            guifg=#737373   ctermfg=243 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi rubyStringDelimiter      guifg=#778899   ctermfg=67  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi rubyStringEscape         guifg=#778899   ctermfg=67  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi rubyRegexpEscape         guifg=#778899   ctermfg=67  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi rubyRegexpAnchor         guifg=#778899   ctermfg=67  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi rubyRegexpSpecial        guifg=#778899   ctermfg=67  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi perlSharpBang            guifg=#737373   ctermfg=243 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi perlStringStartEnd       guifg=#778899   ctermfg=67  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi perlStringEscape         guifg=#778899   ctermfg=67  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi perlMatchStartEnd        guifg=#778899   ctermfg=67  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi pythonEscape             guifg=#778899   ctermfg=67  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi javaScriptFunction       guifg=White     ctermfg=15  guibg=Black     ctermbg=16  gui=bold      cterm=bold      term=bold
+hi elixirDelimiter          guifg=#778899   ctermfg=67  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi Search                   guifg=White     ctermfg=15  guibg=#778899   ctermbg=67  gui=NONE      cterm=NONE      term=NONE
+hi Visual                   guifg=White     ctermfg=15  guibg=#778899   ctermbg=67  gui=NONE      cterm=NONE      term=NONE
+hi NonText                  guifg=DarkGray  ctermfg=248 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi Directory                guifg=White     ctermfg=15  guibg=Black     ctermbg=16  gui=bold      cterm=bold      term=bold
+hi Title                    guifg=White     ctermfg=15  guibg=Black     ctermbg=16  gui=bold      cterm=bold      term=bold
+hi markdownHeadingDelimiter guifg=White     ctermfg=15  guibg=Black     ctermbg=16  gui=bold      cterm=bold      term=bold
+hi markdownHeadingRule      guifg=White     ctermfg=15  guibg=Black     ctermbg=16  gui=bold      cterm=bold      term=bold
+hi markdownLinkText         guifg=#778899   ctermfg=67  guibg=Black     ctermbg=16  gui=underline cterm=underline term=underline
+hi Todo                     guifg=Black     ctermfg=16  guibg=Yellow    ctermbg=226 gui=bold      cterm=bold      term=bold
+hi Pmenu                    guifg=White     ctermfg=15  guibg=#778899   ctermbg=67  gui=NONE      cterm=NONE      term=NONE
+hi PmenuSel                 guifg=#778899   ctermfg=67  guibg=White     ctermbg=15  gui=NONE      cterm=NONE      term=NONE
+hi helpSpecial              guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi helpHyperTextJump        guifg=#778899   ctermfg=67  guibg=Black     ctermbg=16  gui=underline cterm=underline term=underline
+hi helpNote                 guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi vimOption                guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi vimGroup                 guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi vimHiClear               guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi vimHiGroup               guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi vimHiAttrib              guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi vimHiGui                 guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi vimHiGuiFgBg             guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi vimHiCTerm               guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi vimHiCTermFgBg           guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi vimSynType               guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi vimCommentTitle          guifg=#737373   ctermfg=243 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
