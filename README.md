@@ -26,4 +26,4 @@ colorscheme murk
 
 ### LICENSE
 
-The MIT license.
+[The MIT license.](https://github.com/ravelll/vim-murk/blob/master/LICENSE.md)
