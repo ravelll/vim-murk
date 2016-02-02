@@ -10,61 +10,54 @@ set background=dark
 
 let g:colors_name="murk"
 
-hi Normal                   guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi Cursor                   guifg=Black     ctermfg=16  guibg=LightGray ctermbg=252 gui=NONE      cterm=NONE      term=NONE
-hi CursorLine               guifg=LightGray ctermfg=252 guibg=#202020   ctermbg=234 gui=NONE      cterm=NONE      term=NONE
-hi CursorLineNr             guifg=White     ctermfg=15  guibg=Black     ctermbg=16  gui=bold      cterm=bold      term=bold
-hi FoldColumn               guifg=DarkGray  ctermfg=248 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi Folded                   guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi LineNr                   guifg=DarkGray  ctermfg=248 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi Statement                guifg=White     ctermfg=15  guibg=Black     ctermbg=16  gui=bold      cterm=bold      term=bold
-hi PreProc                  guifg=White     ctermfg=15  guibg=Black     ctermbg=16  gui=bold      cterm=bold      term=bold
-hi String                   guifg=#9798F9   ctermfg=67  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi Character                guifg=#9798F9   ctermfg=67  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi Comment                  guifg=#737373   ctermfg=243 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi Constant                 guifg=#00BB00   ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi Type                     guifg=White     ctermfg=15  guibg=Black     ctermbg=16  gui=bold      cterm=bold      term=bold
-hi Function                 guifg=White     ctermfg=15  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi Conditional              guifg=White     ctermfg=15  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi Identifier               guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi Special                  guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi MatchParen               guifg=Black     ctermfg=16  guibg=LightGray ctermbg=252 gui=NONE      cterm=NONE      term=NONE
-hi rubyConstant             guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi rubySharpBang            guifg=#737373   ctermfg=243 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi rubyStringDelimiter      guifg=#778899   ctermfg=67  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi rubyStringEscape         guifg=#778899   ctermfg=67  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi rubyRegexpEscape         guifg=#778899   ctermfg=67  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi rubyRegexpAnchor         guifg=#778899   ctermfg=67  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi rubyRegexpSpecial        guifg=#778899   ctermfg=67  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi perlSharpBang            guifg=#737373   ctermfg=243 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi perlStringStartEnd       guifg=#778899   ctermfg=67  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi perlStringEscape         guifg=#778899   ctermfg=67  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi perlMatchStartEnd        guifg=#778899   ctermfg=67  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi pythonEscape             guifg=#778899   ctermfg=67  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi javaScriptFunction       guifg=White     ctermfg=15  guibg=Black     ctermbg=16  gui=bold      cterm=bold      term=bold
-hi elixirDelimiter          guifg=#778899   ctermfg=67  guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi Search                   guifg=White     ctermfg=15  guibg=#778899   ctermbg=67  gui=NONE      cterm=NONE      term=NONE
-hi Visual                   guifg=White     ctermfg=15  guibg=#778899   ctermbg=67  gui=NONE      cterm=NONE      term=NONE
-hi NonText                  guifg=DarkGray  ctermfg=248 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi Directory                guifg=White     ctermfg=15  guibg=Black     ctermbg=16  gui=bold      cterm=bold      term=bold
-hi Title                    guifg=White     ctermfg=15  guibg=Black     ctermbg=16  gui=bold      cterm=bold      term=bold
-hi markdownHeadingDelimiter guifg=White     ctermfg=15  guibg=Black     ctermbg=16  gui=bold      cterm=bold      term=bold
-hi markdownHeadingRule      guifg=White     ctermfg=15  guibg=Black     ctermbg=16  gui=bold      cterm=bold      term=bold
-hi markdownLinkText         guifg=#778899   ctermfg=67  guibg=Black     ctermbg=16  gui=underline cterm=underline term=underline
-hi Todo                     guifg=Black     ctermfg=16  guibg=Yellow    ctermbg=226 gui=bold      cterm=bold      term=bold
-hi Pmenu                    guifg=White     ctermfg=15  guibg=#778899   ctermbg=67  gui=NONE      cterm=NONE      term=NONE
-hi PmenuSel                 guifg=#778899   ctermfg=67  guibg=White     ctermbg=15  gui=NONE      cterm=NONE      term=NONE
-hi helpSpecial              guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi helpHyperTextJump        guifg=#778899   ctermfg=67  guibg=Black     ctermbg=16  gui=underline cterm=underline term=underline
-hi helpNote                 guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi vimOption                guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi vimGroup                 guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi vimHiClear               guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi vimHiGroup               guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi vimHiAttrib              guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi vimHiGui                 guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi vimHiGuiFgBg             guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi vimHiCTerm               guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi vimHiCTermFgBg           guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi vimSynType               guifg=LightGray ctermfg=252 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
-hi vimCommentTitle          guifg=#737373   ctermfg=243 guibg=Black     ctermbg=16  gui=NONE      cterm=NONE      term=NONE
+hi Constant                 ctermfg=34  ctermbg=16  cterm=NONE      term=NONE
+hi Normal                   ctermfg=255 ctermbg=16  cterm=NONE      term=NONE
+hi Cursor                   ctermfg=16  ctermbg=252 cterm=NONE      term=NONE
+hi CursorLine               ctermfg=252 ctermbg=234 cterm=NONE      term=NONE
+hi CursorLineNr             ctermfg=15  ctermbg=16  cterm=bold      term=bold
+hi FoldColumn               ctermfg=248 ctermbg=16  cterm=NONE      term=NONE
+hi Folded                   ctermfg=252 ctermbg=16  cterm=NONE      term=NONE
+hi LineNr                   ctermfg=236 ctermbg=16  cterm=NONE      term=NONE
+hi String                   ctermfg=25  ctermbg=16  cterm=NONE      term=NONE
+hi Character                ctermfg=25  ctermbg=16  cterm=NONE      term=NONE
+hi Comment                  ctermfg=238 ctermbg=16  cterm=NONE      term=NONE
+hi Identifier               ctermfg=15  ctermbg=16  cterm=NONE      term=NONE
+hi Function                 ctermfg=45  ctermbg=16  cterm=NONE      term=NONE
+hi PreProc                  ctermfg=45  ctermbg=16  cterm=NONE      term=NONE
+hi Structure                ctermfg=33  ctermbg=16  cterm=NONE      term=NONE
+hi Type                     ctermfg=39  ctermbg=16  cterm=NONE      term=NONE
+hi Statement                ctermfg=15  ctermbg=16  cterm=bold      term=bold
+hi Operator                 ctermfg=251 ctermbg=16  cterm=bold      term=bold
+hi Conditional              ctermfg=72  ctermbg=16  cterm=NONE      term=NONE
+hi Repeat                   ctermfg=72  ctermbg=16  cterm=NONE      term=NONE
+hi Label                    ctermfg=72  ctermbg=16  cterm=NONE      term=NONE
+hi Boolean                  ctermfg=15  ctermbg=16  cterm=NONE      term=NONE
+hi Number                   ctermfg=15  ctermbg=16  cterm=NONE      term=NONE
+hi Float                    ctermfg=15  ctermbg=16  cterm=NONE      term=NONE
+hi Special                  ctermfg=7   ctermbg=16  cterm=NONE      term=NONE
+hi MatchParen               ctermfg=43  ctermbg=16  cterm=NONE      term=NONE
+hi Search                   ctermfg=15  ctermbg=67  cterm=NONE      term=NONE
+hi Visual                   ctermfg=15  ctermbg=67  cterm=NONE      term=NONE
+hi NonText                  ctermfg=248 ctermbg=16  cterm=NONE      term=NONE
+hi Directory                ctermfg=15  ctermbg=16  cterm=bold      term=bold
+hi Title                    ctermfg=15  ctermbg=16  cterm=bold      term=bold
+hi markdownHeadingDelimiter ctermfg=15  ctermbg=16  cterm=bold      term=bold
+hi markdownHeadingRule      ctermfg=15  ctermbg=16  cterm=bold      term=bold
+hi markdownLinkText         ctermfg=67  ctermbg=16  cterm=underline term=underline
+hi Todo                     ctermfg=16  ctermbg=226 cterm=bold      term=bold
+hi Pmenu                    ctermfg=15  ctermbg=67  cterm=NONE      term=NONE
+hi PmenuSel                 ctermfg=67  ctermbg=15  cterm=NONE      term=NONE
+hi helpSpecial              ctermfg=252 ctermbg=16  cterm=NONE      term=NONE
+hi helpHyperTextJump        ctermfg=67  ctermbg=16  cterm=underline term=underline
+hi helpNote                 ctermfg=252 ctermbg=16  cterm=NONE      term=NONE
+hi vimOption                ctermfg=252 ctermbg=16  cterm=NONE      term=NONE
+hi vimGroup                 ctermfg=252 ctermbg=16  cterm=NONE      term=NONE
+hi vimHiClear               ctermfg=252 ctermbg=16  cterm=NONE      term=NONE
+hi vimHiGroup               ctermfg=252 ctermbg=16  cterm=NONE      term=NONE
+hi vimHiAttrib              ctermfg=252 ctermbg=16  cterm=NONE      term=NONE
+hi vimHiGui                 ctermfg=252 ctermbg=16  cterm=NONE      term=NONE
+hi vimHiGuiFgBg             ctermfg=252 ctermbg=16  cterm=NONE      term=NONE
+hi vimHiCTerm               ctermfg=252 ctermbg=16  cterm=NONE      term=NONE
+hi vimHiCTermFgBg           ctermfg=252 ctermbg=16  cterm=NONE      term=NONE
+hi vimSynType               ctermfg=252 ctermbg=16  cterm=NONE      term=NONE
+hi vimCommentTitle          ctermfg=243 ctermbg=16  cterm=NONE      term=NONE
