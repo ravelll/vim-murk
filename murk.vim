@@ -46,7 +46,7 @@ hi markdownHeadingRule      ctermfg=15  ctermbg=16  cterm=bold      term=bold
 hi markdownLinkText         ctermfg=67  ctermbg=16  cterm=underline term=underline
 hi Todo                     ctermfg=16  ctermbg=226 cterm=bold      term=bold
 hi Pmenu                    ctermfg=15  ctermbg=67  cterm=NONE      term=NONE
-hi PmenuSel                 ctermfg=67  ctermbg=15  cterm=NONE      term=NONE
+hi PmenuSel                 ctermfg=15  ctermbg=67  cterm=NONE      term=NONE
 hi helpSpecial              ctermfg=252 ctermbg=16  cterm=NONE      term=NONE
 hi helpHyperTextJump        ctermfg=67  ctermbg=16  cterm=underline term=underline
 hi helpNote                 ctermfg=252 ctermbg=16  cterm=NONE      term=NONE
