@@ -15,8 +15,8 @@ hi Normal                   ctermfg=255 ctermbg=16  cterm=NONE      term=NONE
 hi Cursor                   ctermfg=16  ctermbg=252 cterm=NONE      term=NONE
 hi CursorLine               ctermfg=252 ctermbg=234 cterm=NONE      term=NONE
 hi CursorLineNr             ctermfg=15  ctermbg=16  cterm=bold      term=bold
-hi FoldColumn               ctermfg=248 ctermbg=16  cterm=NONE      term=NONE
-hi Folded                   ctermfg=252 ctermbg=16  cterm=NONE      term=NONE
+hi FoldColumn               ctermfg=7   ctermbg=16  cterm=NONE      term=NONE
+hi Folded                   ctermfg=6   ctermbg=16  cterm=NONE      term=NONE
 hi LineNr                   ctermfg=236 ctermbg=16  cterm=NONE      term=NONE
 hi String                   ctermfg=25  ctermbg=16  cterm=NONE      term=NONE
 hi Character                ctermfg=25  ctermbg=16  cterm=NONE      term=NONE
