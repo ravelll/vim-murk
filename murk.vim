@@ -20,7 +20,7 @@ hi Folded                   ctermfg=6   ctermbg=16  cterm=NONE      term=NONE
 hi LineNr                   ctermfg=236 ctermbg=16  cterm=NONE      term=NONE
 hi String                   ctermfg=25  ctermbg=16  cterm=NONE      term=NONE
 hi Character                ctermfg=25  ctermbg=16  cterm=NONE      term=NONE
-hi Comment                  ctermfg=238 ctermbg=16  cterm=NONE      term=NONE
+hi Comment                  ctermfg=241 ctermbg=16  cterm=NONE      term=NONE
 hi Identifier               ctermfg=15  ctermbg=16  cterm=NONE      term=NONE
 hi Function                 ctermfg=45  ctermbg=16  cterm=NONE      term=NONE
 hi PreProc                  ctermfg=45  ctermbg=16  cterm=NONE      term=NONE
